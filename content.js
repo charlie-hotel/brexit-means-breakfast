@@ -24,13 +24,15 @@ function replaceText(v)
   
     // Brexit
 
-	v = v.replace(/\b Brexit\b/g, " breakfast");  
-	v = v.replace(/\bBrexit\b/g, "Breakfast");
+  v = v.replace(/\b (B|b)rexit\b/g, " breakfast");  
+  v = v.replace(/(["',:]) (B|b)rexit\b/g, "$1 breakfast");
+  v = v.replace(/\b(B|b)rexit(|s)\b/g, "$1reakfast$2");
 	v = v.replace(/\bbreakfast Secretary\b/g, "Breakfast Secretary");
 	v = v.replace(/\bbreakfast Minister\b/g, "Breakfast Minister");
-    v = v.replace(/\bbrexit\b/g, "breakfast");
+  v = v.replace(/\b(B|b)rexiteer(|s)\b/g, "$1reakfaster$2");
 	v = v.replace(/\bBrexitcast\b/g, "Breakfastcast");
-
+  v = v.replace(/\b(B|b)rexiting\b/g, "$1reakfasting");
+  v = v.replace(/\b(B|b)rexited\b/g, "$1reakfasted");
     return v;
 }
 
