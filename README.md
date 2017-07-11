@@ -5,6 +5,7 @@ Brexit means Breakfast (BmB) is a Chrome extension that replaces all instances o
 # Releases and Changelog
 **v1.0.1**: 
 Fixed weird capitalization on 'breakfast' when appearing in the middle of a sentence.
+
 **v1.0**: 
 Initial Release
 
