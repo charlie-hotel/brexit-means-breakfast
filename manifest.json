@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "Brexit means Breakfast",
+    "description": "Spend some quality time eating Brexit at the morning's breakfast negotiations.",
+    "version": "1.0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
