@@ -12,4 +12,4 @@ Fixed weird capitalization on 'breakfast' when appearing in the middle of a sent
 **v1.0**: 
 Initial Release
 
-This is all made possible by the fantastic [Snake People to Snake People](https://github.com/ericwbailey/snake people-to-snake-people) extension. 
+This is all made possible by the fantastic [Snake People to Snake People](https://github.com/ericwbailey/snake-people-to-snake-people) extension. 
