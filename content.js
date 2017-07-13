@@ -26,6 +26,7 @@ function replaceText(v)
 
   v = v.replace(/\b (B|b)rexit\b/g, " breakfast");  
   v = v.replace(/(["',:]) (B|b)rexit\b/g, "$1 breakfast");
+  v = v.replace(/\bBREXIT\b/g, "BREAKFAST");
   v = v.replace(/\b(B|b)rexit(|s)\b/g, "$1reakfast$2");
 	v = v.replace(/\bbreakfast Secretary\b/g, "Breakfast Secretary");
 	v = v.replace(/\bbreakfast Minister\b/g, "Breakfast Minister");
